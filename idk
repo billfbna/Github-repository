@@ -1,0 +1,26 @@
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" /> 
+  <EventID Qualifiers="49152">7031</EventID> 
+  <Version>0</Version> 
+  <Level>2</Level> 
+  <Task>0</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8080000000000000</Keywords> 
+  <TimeCreated SystemTime="2023-02-03T18:57:33.8008140Z" /> 
+  <EventRecordID>10121</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="884" ThreadID="9240" /> 
+  <Channel>System</Channel> 
+  <Computer>DESKTOP-DELL</Computer> 
+  <Security /> 
+  </System>
+- <EventData>
+  <Data Name="param1">Windows Audio</Data> 
+  <Data Name="param2">1</Data> 
+  <Data Name="param3">60000</Data> 
+  <Data Name="param4">1</Data> 
+  <Data Name="param5">Restart the service</Data> 
+  <Binary>41007500640069006F007300720076000000</Binary> 
+  </EventData>
+  </Event>
